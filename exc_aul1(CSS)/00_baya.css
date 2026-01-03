@@ -1,0 +1,45 @@
+h4{
+    border: 5px solid blueviolet;
+    color: aqua;
+    font-size: 40px;
+}
+.paragrafo{
+    color: aliceblue;
+    background-color: black;
+    font-size: 40px;
+    padding: 5px;
+}
+#excl_titulo{
+    background-color: rgba(128, 255, 0, 0.664);
+    color: rgb(255, 106, 0);
+    font-size: 40px;
+    padding: 30px;
+/* Comentrio rápido é [Ctrl] + [:;]  */
+}
+
+/* Background com imagem */
+.bg_img{
+    background-image: url("../img/download.jpg");
+    color: rgb(0, 0, 0);
+}
+.bg_img2{
+    background-image: url("../img/renderizacao-3d-do-fundo-de-textura-hexagonal_23-2150796421.avif");
+    color: azure;
+    
+}
+/* centralizando imagem de background */
+.centralizado,.no_centralizado{
+    height: 400px;
+    width:400px;
+    background-image: url("../img/iStock-1466704357-HEADER_MOBILE.webp");
+
+}
+.centralizado{
+    background-position: center;
+    background-size: cover;
+}
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: aquamarine;
+}

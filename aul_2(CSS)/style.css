@@ -1,0 +1,49 @@
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: aquamarine;
+}
+/* padding */
+.dont_have,.have_espace{
+    color: rgb(0, 0, 0);
+    background-color: rgb(121, 56, 9);
+}
+
+.have_espace{
+    background-color: rgb(34, 33, 33);
+    padding:70px;
+}
+/* :shorthad_padding */
+.shorthad_padding{
+    background-color: brown;
+    padding: 6px 12px 18px 24px  ;
+
+}
+/* teste de divergencia de texto */
+.upper{
+text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+
+.espaço{
+    letter-spacing: 20px;
+}
+
+.invisivel{
+    display: none;
+}
+
+
+.fixed{
+        background-color: rgb(162, 0, 255);
+    color: rgba(197, 0, 108, 0.884);
+    font-family: cursive;
+    width: 140px;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+
+}
