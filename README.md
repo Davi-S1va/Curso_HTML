@@ -1,0 +1,2 @@
+# Curso_HTML
+Repositório criado para armazenar e organizar as aulas práticas de HTML do curso. Aqui estão reunidos exercícios, exemplos e pequenos projetos desenvolvidos ao longo do aprendizado, com foco em estruturação de páginas, uso correto das tags HTML e boas práticas iniciais de desenvolvimento web. O objetivo é acompanhar a evolução no estudo de HTML e servir como material de consulta futura.
