@@ -8,15 +8,44 @@
 </head>
 <body>
     <h1>Prencha a seguir</h1>
-   <div>
+   
     <form>
-        <label>Nome:</label>
+        <div>
+        <labe for="nameUser">Nome:</labe>
         <input type="text" name="nameUser">
-        <figcaption>Sem character como (#@!?/"";) <br><br></figcaption>
+        <figcaption>Ivite usar character especial(#@!?/"";) <br><br></figcaption>
+        </div>
 
-        <label>Idade:</label>
+    <div>
+        <label for="age">Idade:</label>
         <input type="text" name="age">
-    </form>
     </div>
+
+    <!-- Select -->
+     <div>
+        <br> <br>
+     <label for="job">Selecione a sua profissão</label>
+     <select name="job"> 
+        <option value="start">Selecione</option>
+        <option value="programador">Promagador
+        </option>
+        <option value="devops">DevOps
+        </option>
+    </select>
+    </div>
+
+    <div>
+        <br> <br>
+    <label for="contract">Você Concorda com os termos do contrato?</label>
+    <select name="contract">
+        <option value="sim">Sim, li e concordo com os termos</option>
+        <option value="não" selected >Não concordo, encerrar.</option>
+    </select>
+    </div>
+
+    <!-- Envio de formulario -->
+     <br>
+     <input type="submit" value="Enviar"/>
+    </form>
 </body>
 </html>
