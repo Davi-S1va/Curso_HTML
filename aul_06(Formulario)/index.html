@@ -10,20 +10,50 @@
     <h1>Prencha a seguir</h1>
    
     <form>
+
+        <!-- UseName -->
         <div>
-        <labe for="nameUser">Nome:</labe>
+        <labe for="nameUser">User</labe>
         <input type="text" name="nameUser">
-        <figcaption>Ivite usar character especial(#@!?/"";) <br><br></figcaption>
+        <figcaption>Evite usar character especial(#@!?/"";) </figcaption>
         </div>
 
-    <div>
-        <label for="age">Idade:</label>
-        <input type="text" name="age">
-    </div>
+        <!--  Campo de e-mail-->
+          <div>
+            <label for="email">Insira seu E-mail:</label>
+            <input type="email" name="email">
+        </div>
+
+        <!-- Campo de senha -->
+        <div>
+         <label for="password">Insira sua senha:</label>
+         <input type="password" name="password">
+  
+        </div>
+
+        <!-- Formulario de informações -->
+         <div>
+        <fieldset>
+            <legend>Preencha sua informações a seguir</legend>
+            <label for="firstName">Nome:</label>
+            <input type="text" name="firstName">
+            <label for="LastName">Sobrenome:</label>
+            <input type="text" name="LastName">
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade">
+        </fieldset>
+        </div>
+
+          <!-- Seleção de Data -->
+     <div>
+        <label for="birthday">Data de Nascimento:</label>
+        <input type="date" name="birthday" >
+     </div>
+
 
     <!-- Select -->
      <div>
-        <br> <br>
+    
      <label for="job">Selecione a sua profissão</label>
      <select name="job"> 
         <option value="start">Selecione</option>
@@ -31,11 +61,13 @@
         </option>
         <option value="devops">DevOps
         </option>
+        <option value="carpinteiro">Carpinteiro</option>
     </select>
     </div>
 
+    <!-- De acordo do usuario com uma opção preselecionada -->
     <div>
-        <br> <br>
+        
     <label for="contract">Você Concorda com os termos do contrato?</label>
     <select name="contract">
         <option value="sim">Sim, li e concordo com os termos</option>
@@ -43,9 +75,93 @@
     </select>
     </div>
 
+    <!-- Multiplas seleções  -->
+    <div>
+     
+        <label for="list">Selecione os intens que vc deseja comprar</label>
+        <select name="itens" multiple>
+            <option value="arroz">Arroz</option>
+            <option value="feijao">Feijão</option>
+            <option value="pao">Pão</option>
+            <option value="macarrao">Macarrão</option>
+            <option value="frango">Frango</option>
+            <option value="Carne">Carne</option>
+        </select>
+   
+    </div>
+
+    <!-- pesquisa e adiciona opção a seleção -->
+    <div>
+     <label for="flavor">Selecione o sabor de sorvete</label>
+     <input type="text" list="sabores" name="flavor">
+     <datalist id="sabores">
+        <option value="Morango"></option>
+        <option value="Flocos"></option>
+        <option value="Menta"></option>
+        <option value="Leite Condesado"></option>
+        <option value="Maracuja"></option>
+        <option value="Chocolate"></option>
+        <option value="Baunilha"></option>
+        <option value="Milho verde"></option>
+     </datalist>
+
+     </div>
+     
+     <!-- Seleção de multipla escolha -->
+      <div>
+        <label for="car_select">Selecione o modelo de carro</label>
+        <div class="radio">
+            <input type="radio" value="bmw" name="car_select">
+            <label for="bmw">BMW</label>
+            <input type="radio" value="FordCar" name="car_select">
+            <label for="FordCar">Ford Car</label>
+            <input type="radio" value="Ferrari" name="car_select">
+            <label for="Ferrari">Ferrari</label>
+        </div>
+            
+     </div>
+
+        <!-- Captcha de multipla escolha -->
+         <div>
+            <label for="optinals">Opcionais do Carro</label>
+            <div class="radio">
+                <input type="checkbox" name="optinals[]" value="big_tires">
+                <label for="big_tires">Pneus Grandes</label>
+
+                <input type="checkbox" name="optinals[]"
+                value="turbo_engine">
+                <label for="turbo_engine">Motor Turbo</label>
+
+                <input type="checkbox" name="optinals[]"
+                value="hybrid">
+                <label for="hybrid">Híbrido</label>
+
+
+
+            </div>
+    <!-- Envio de arquivo -->
+     <div>
+        <label for="imagem">Insira sua image:</label>
+        <input type="file" name="imagem">
+     </div>
+
+      
+     <!-- Área de feedback -->
+    <div>    
+     <label for="comment">Dê um feedback sobre o que está acahando do nosso site</label>
+     <textarea name="comment"></textarea>
+
+    </div>
+
+    <!-- Limpar Formulario -->
+     <div>
+     <input type="reset" value="Limpar">
+     </div>
     <!-- Envio de formulario -->
-     <br>
+    <div>
      <input type="submit" value="Enviar"/>
+     </div>
     </form>
+
 </body>
 </html>
