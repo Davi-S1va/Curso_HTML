@@ -52,6 +52,8 @@ textarea{
     margin:0 auto;
     position: relative;
     top: -60px;
+    border-bottom: 20px;
+    padding: auto;
 }
 
 .form-header{
@@ -109,6 +111,8 @@ textarea{
 
 .box-input p{
     margin-bottom: 20px;
+    padding: 20px;
+    
 }
 
 .btn-submit{
@@ -120,10 +124,16 @@ textarea{
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
+    margin-top: 20px;
+
+
+    
 
 }
 .btn-submit:hover{
     background-color: aliceblue;
     border-color: purple;
-    color: blue;
+    color:purple;
+  
+    
 }
